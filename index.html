@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Calculator</title>
+</head>
+<body>
+  <main>
+    <section class="calculator-container">
+      <div class="calculator__result">
+        <h3 id="result">=</h3>
+      </div>
+
+      <div class="calculator__resume">
+        <input value="0" id="resume" type="text" disabled>
+      </div>
+
+      <form class="calculator__operations">
+        <div class="calculator__operations__left">
+          <button type="button" value="1">1</button>
+          <button type="button" value="2">2</button>
+          <button type="button" value="3">3</button>
+          <button type="button" value="4">4</button>
+          <button type="button" value="5">5</button>
+          <button type="button" value="6">6</button>
+          <button type="button" value="7">7</button>
+          <button type="button" value="8">8</button>
+          <button type="button" value="9">9</button>
+          <button type="button" value=".">.</button>
+          <button type="button" value="0">0</button>
+          <button id="clear" type="button" value="clear">C</button>
+        </div>
+
+        <div class="calculator__operations__right">
+          <button type="button" value="+">+</button>
+          <button type="button" value="-">-</button>
+          <button type="button" value="x">x</button>
+          <button type="button" value="/">/</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <script src="./main.js"></script>
+</body>
+</html>
